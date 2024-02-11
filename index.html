@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sooraj's Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div style=font-size:25px; "logo">SOORAJ'S PORTFOLIO</div>
+        <div class="options">
+          <ul>
+            <li><a href="index.html">Home</li></a>
+            <li><a href="about.html">About Me</li></a>
+            <li><a href="skills.html">Skills</li></a>           
+            <li><a href="projects.html">Projects</li></a>
+            <li><a href="contact.html">Contact</li></a>          
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="first">
+        <div class="left">
+          Hi I am <span class="sooraj">SOORAJ</span>
+        <div>And I Like Coding</div>
+        <span id="element"></span>
+        </div>
+        <div class="right">
+          <img src="https://godigitizing.com/wp-content/uploads/2021/02/5-1.png" alt="boy on chair doing web dev">
+        </div>        
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Python','Java','Web Development','C programming','DSA'],
+      typeSpeed: 50,
+      loop:true,
+    });
+  </script>
+  </body>
+</html>

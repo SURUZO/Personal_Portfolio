@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sooraj-ABOUT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div style=font-size:25px; "logo">SOORAJ'S PORTFOLIO</div>
+          <div class="options">
+            <ul>
+              <li><a href="index.html">Home</li></a>
+              <li><a href="about.html">About Me</li></a>
+              <li><a href="skills.html">Skills</li></a>           
+              <li><a href="projects.html">Projects</li></a>
+              <li><a href="contact.html">Contact</li></a>          
+            </ul>
+          </div>
+        </nav>
+      </header>  
+      <main>
+        <section class="about">
+          <div class="firstsection">
+            <div class="title">ABOUT ME</div>
+            <div class="line"><hr></div>
+            <div class="title_desc">Hi,Im Sooraj i have a great interest in coding and am currently pursuing BTECH in ComputerScience at SCMS College OF ENGINEERING </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="https://godigitizing.com/wp-content/uploads/2021/02/5-1.png" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
+              <h2>WEB DEVELOPER</h2>
+              <p class="fst-italic">
+                WEB DEVELOPER,I am a passionate web developer, dedicated to creating beautiful and functional websites. I believe in the power of technology to solve problems and enhance user experiences. Currently, I am honing my skills and exploring new technologies to stay updated with the latest trends in web development.
+
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 10 OCTOBER 2003</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +91 8714876702</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> City : THRISSUR</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong><span id="age"></span></li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> BTECH</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>YEAR OF PASSING:</strong>2025</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>PhEmailone:</strong>sooraj.s1289@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                In my free time, I enjoy working on personal coding projects and experimenting with new technologies. I'm particularly interested in front-end development and user interface design, and I'm always looking for ways to improve my skills in these areas.
+
+I believe in continuous learning and growth, so I frequently participate in online courses, workshops, and coding challenges to expand my knowledge and stay up-to-date with industry trends.
+
+Apart from coding, I'm also passionate about drawing and exploring new places. Feel free to reach out to me if you'd like to collaborate on a project or just chat about web development and technology!
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    
+    <script>
+        // Get the span element where age will be displayed
+        var ageSpan = document.getElementById('age');
+        
+        // Calculate age and display it
+        var age = calculateAge('2003-10-10'); // Format: YYYY-MM-DD
+        ageSpan.textContent = age;
+    </script>
+</body>
+</html>
